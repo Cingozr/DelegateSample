@@ -9,6 +9,7 @@ namespace DelegationSample2
         {
             MathOperation mathOp = SimpleMath.Add;
             mathOp += SimpleMath.Subtract;
+            mathOp(5, 3);
 
             foreach (Delegate del in mathOp.GetInvocationList())
             {
