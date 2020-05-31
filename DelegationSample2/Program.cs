@@ -9,7 +9,9 @@ namespace DelegationSample2
         {
             //SimpleMath simpleMath = new SimpleMath();
             //NonGenericDelegate nonGenericDelegate = new NonGenericDelegate();
-            GenericDelegate genericDelegate = new GenericDelegate();
+            //GenericDelegate genericDelegate = new GenericDelegate();
+            //SimpleAction simpleAction = new SimpleAction();
+            SimpleFunc simpleFunction = new SimpleFunc();
 
             Console.ReadLine();
         }
